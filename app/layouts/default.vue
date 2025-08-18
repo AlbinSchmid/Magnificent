@@ -7,7 +7,7 @@
     </div>
 </template>
 
-<style scoped> 
+<style scoped>
 .layout {
     background: radial-gradient(71.11% 100% at 50% 0%, #020204 14.6%, #011F35 100%);
     min-height: 100vh;
@@ -15,6 +15,7 @@
 }
 
 main {
-  flex: 1;
+    padding: 60px 96px;
+    flex: 1;
 }
 </style>

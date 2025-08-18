@@ -13,5 +13,6 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: 'Rubik', sans-serif;
 }
 </style>
