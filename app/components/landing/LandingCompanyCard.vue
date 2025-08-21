@@ -1,5 +1,5 @@
 <template>
-    <div class="p-[24px] rounded-[16px] shadow-md gap-[8px] flex flex-col ">
+    <div class="p-[24px] shadow-md gap-[8px] flex flex-col card-bg">
         <h1 class="flex items-center text-xl gap-[8px] font-bold"><img :src="company.image" alt="Company Icon"
                 class="w-[20px] h-[20px]">{{ company.name }}</h1>
         <p class="text-base">Revenue Q1 2024</p>
@@ -33,9 +33,3 @@ defineProps({
     }
 })
 </script>
-
-<style scoped>
-div {
-    background: #011F35;
-}
-</style>

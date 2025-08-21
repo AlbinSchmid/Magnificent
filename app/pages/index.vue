@@ -1,7 +1,10 @@
 <template>
-    <section class="flex gap-[24px] p-[24px] rounded-[20px]">
-        <LandingCompanyCard class="flex-1" v-for="company in companies" :key="company.name" :company="company" />
-    </section>
+    <div class="flex flex-col gap-[48px]">
+        <div class="flex gap-[24px] p-[24px] rounded-[20px] dark-blue-bg ">
+            <LandingCompanyCard class="flex-1" v-for="company in companies" :key="company.name" :company="company" />
+        </div>
+        <LandingLineDiagram />
+    </div>
 </template>
 
 <script setup>
@@ -53,8 +56,7 @@ let companies = [
 
 
 <style scoped>
-section {
+.dark-blue-bg {
     background: #023A6233;
-    overflow: hidden;
 }
 </style>

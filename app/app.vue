@@ -15,4 +15,9 @@
   color: white;
   font-family: 'Rubik', sans-serif;
 }
+
+.card-bg {
+  background: #011F35;
+  border-radius: 16px;
+}
 </style>
