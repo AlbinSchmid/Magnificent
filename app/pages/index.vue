@@ -1,6 +1,6 @@
 <template>
     <section class="flex gap-[24px] p-[24px] rounded-[20px]">
-        <LandingCompanyCard v-for="company in companies" :key="company.name" :company="company" />
+        <LandingCompanyCard class="flex-1" v-for="company in companies" :key="company.name" :company="company" />
     </section>
 </template>
 
@@ -55,5 +55,6 @@ let companies = [
 <style scoped>
 section {
     background: #023A6233;
+    overflow: hidden;
 }
 </style>

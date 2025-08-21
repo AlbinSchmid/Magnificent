@@ -3,7 +3,7 @@
         <h1 class="flex items-center text-xl gap-[8px] font-bold"><img :src="company.image" alt="Company Icon"
                 class="w-[20px] h-[20px]">{{ company.name }}</h1>
         <p class="text-base">Revenue Q1 2024</p>
-        <div class="flex gap-[8px] justify-center items-center">
+        <div class="flex gap-[8px] justify-start items-center">
             <p class="text-3xl font-medium">{{ company.price }}</p>
             <div>
                 <p class="flex text-base font-medium items-center gap-[4px]"
